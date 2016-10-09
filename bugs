@@ -1,0 +1,10 @@
+1.
+/HEAPO_x86_2.6.32/Kernel/pos.c
+line 1934:
+task_pid-pid_nr  modified  as  task_pid->pid_nr
+
+2.
+/Garbage_Collector/Library/malloc_free.c
+line 34,35
+int garbage_count = 0;  modified as  //int garbage_count = 0;(commented)
+int find_count = 0;   modified as  //int find_count = 0;(commented)
